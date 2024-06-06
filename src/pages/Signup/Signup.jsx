@@ -4,7 +4,6 @@ const Signup = () => {
     return(
         <div className="right">
             <div className="right-box">
-                {/* <img src="../\src\img\Background\bg-form.png" alt="Fundo" id="img-fundo"/> */}
                 <img src="src\img\Logo.svg" alt="Logo da GymRats" id="flogo"/>
                 <h2 id="ftitle">Crie sua conta agora mesmo</h2>
                 <form method="post" action="" id="cadastro">

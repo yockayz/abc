@@ -2,14 +2,16 @@
 //import Header from './components/Header/Header';
 //import Footer from './components/Footer/Footer';
 import Art from './components/Art/Art';
-import Signup from './pages/Signup/Signup';
+// import Signup from './pages/Signup/Signup';
+import Login from './pages/Login/Login';
 
 function App() {
   return (
     <div className="App">
       {/* <Header/> */}
       <Art/>
-      <Signup/>
+      <Login/>
+      {/* <Signup/> */}
       {/* <Footer/> */}
     </div>
   );
