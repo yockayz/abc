@@ -2,7 +2,7 @@
     width: 50vw;
     height: 100vh;
     background-image: url(../../img/Background/bgLogin.png);
-    background-size: center;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -25,4 +25,10 @@
 .left-text {
     font-size: 18px;
     font-weight: 600;
+}
+
+@media screen and (max-width: 950px) {
+    .left-art {
+        display: none;
+    }
 }
